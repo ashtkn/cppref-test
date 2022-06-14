@@ -48,6 +48,4 @@ static_assert(std::is_trivially_destructible<std::string>::value == false, "std:
 static_assert(std::is_trivially_destructible<std::unordered_map<int, int>>::value == false, "std::unordered_map<int, int> isn't trivially destructible");
 static_assert(std::is_trivially_destructible<std::vector<int>>::value == false, "std::vector<int> isn't trivially destructible");
 
-int main() {
-  return 0;
-}
+int main() { return 0; }
